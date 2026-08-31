@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# Dataset - do not upload
+data/
+dataset/
+UrduSER/
+*.wav
+
+# Large model files
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Operating system
+.DS_Store
+Thumbs.db
