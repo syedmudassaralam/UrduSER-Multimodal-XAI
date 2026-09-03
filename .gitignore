@@ -1,32 +1,22 @@
-# Python
+outputs/xai/audio/extra_trees.joblib
 __pycache__/
+
+# Python cache
 *.pyc
+*.pyo
+.pytest_cache/
 .ipynb_checkpoints/
 
-# Virtual environments
+# Local environments
+.venv/
 venv/
-.env
-*.env
+env/
 
-# Dataset - do not upload
-data/
-dataset/
-UrduSER/
-*.wav
-
-# Large model files
-checkpoints/
-models/
-*.pt
+# Large model checkpoints
 *.pth
+*.pt
 *.ckpt
-*.bin
-*.safetensors
 
-# Hugging Face cache
-.cache/
-huggingface/
-
-# Operating system
+# System/editor files
 .DS_Store
-Thumbs.db
+*.swp
