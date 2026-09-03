@@ -1,0 +1,12 @@
+{
+  "model": "Acoustic XGBoost",
+  "accuracy": 0.41714285714285715,
+  "macro_f1": 0.4102494289633369,
+  "accuracy_percent": 41.71,
+  "macro_f1_percent": 41.02,
+  "n_train": 2800,
+  "n_val": 350,
+  "n_test": 350,
+  "feature_dimension": 187,
+  "seed": 123
+}

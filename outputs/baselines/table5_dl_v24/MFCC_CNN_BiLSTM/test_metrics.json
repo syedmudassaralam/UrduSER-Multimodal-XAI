@@ -1,0 +1,8 @@
+{
+  "model": "MFCC_CNN_BiLSTM",
+  "accuracy_percent": 45.43,
+  "macro_f1_percent": 44.6,
+  "accuracy": 0.4542857142857143,
+  "macro_f1": 0.44598709005747006,
+  "seed": 123
+}

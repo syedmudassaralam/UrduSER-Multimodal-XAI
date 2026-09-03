@@ -1,0 +1,74 @@
+{
+  "table": "Table 8",
+  "description": "Performance of zero-shot and few-shot low-resource baselines on the seven-class Urdu SER task.",
+  "results": [
+    {
+      "evaluation": "Zero-shot",
+      "model": "mDeBERTa-v3-base-MNLI-XNLI",
+      "setting": "--",
+      "accuracy_percent": 23.71,
+      "macro_f1_percent": 22.06
+    },
+    {
+      "evaluation": "Zero-shot",
+      "model": "XLM-RoBERTa-large-XNLI",
+      "setting": "--",
+      "accuracy_percent": 28.00,
+      "macro_f1_percent": 26.20
+    },
+    {
+      "evaluation": "Few-shot",
+      "model": "TF-IDF + Logistic Regression",
+      "setting": "10-shot",
+      "accuracy_mean": 21.43,
+      "accuracy_std": 1.82,
+      "macro_f1_mean": 21.45,
+      "macro_f1_std": 1.59
+    },
+    {
+      "evaluation": "Few-shot",
+      "model": "TF-IDF + Logistic Regression",
+      "setting": "5-shot",
+      "accuracy_mean": 21.81,
+      "accuracy_std": 1.28,
+      "macro_f1_mean": 21.30,
+      "macro_f1_std": 1.32
+    },
+    {
+      "evaluation": "Few-shot",
+      "model": "TF-IDF + Multinomial NB",
+      "setting": "10-shot",
+      "accuracy_mean": 21.24,
+      "accuracy_std": 0.75,
+      "macro_f1_mean": 21.11,
+      "macro_f1_std": 0.34
+    },
+    {
+      "evaluation": "Few-shot",
+      "model": "TF-IDF + Multinomial NB",
+      "setting": "5-shot",
+      "accuracy_mean": 21.24,
+      "accuracy_std": 1.81,
+      "macro_f1_mean": 20.47,
+      "macro_f1_std": 1.67
+    },
+    {
+      "evaluation": "Few-shot",
+      "model": "mBERT",
+      "setting": "10-shot",
+      "accuracy_mean": 17.71,
+      "accuracy_std": 2.29,
+      "macro_f1_mean": 17.41,
+      "macro_f1_std": 2.26
+    },
+    {
+      "evaluation": "Few-shot",
+      "model": "TF-IDF + Linear SVM",
+      "setting": "10-shot",
+      "accuracy_mean": 18.48,
+      "accuracy_std": 2.97,
+      "macro_f1_mean": 16.09,
+      "macro_f1_std": 2.67
+    }
+  ]
+}

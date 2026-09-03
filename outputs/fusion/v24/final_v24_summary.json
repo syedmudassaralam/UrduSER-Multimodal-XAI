@@ -1,0 +1,283 @@
+{
+  "pipeline_version": "V24",
+  "selected_method": "v24_sequential_selective_acoustic_gate",
+  "protected_baseline": "v21_0.55_v13_0.45",
+  "version_provenance": {
+    "manifest_source_version": "V11",
+    "manifest_file": "data/urdu_ser_manifest_v11_portable.csv",
+    "v21_validation_predictions": "outputs/fusion/v21/val_predictions.csv",
+    "v21_test_predictions": "outputs/fusion/v21/test_predictions.csv",
+    "v13_validation_predictions": "outputs/fusion/v13/val_predictions.csv",
+    "v13_test_predictions": "outputs/fusion/v13/test_predictions.csv",
+    "new_acoustic_pipeline_version": "V24",
+    "new_acoustic_models": [
+      "RBF-SVM",
+      "Extra Trees",
+      "Logistic Regression"
+    ],
+    "selection_policy": "validation-only",
+    "test_policy": "frozen final evaluation"
+  },
+  "dataset_configuration": {
+    "classes": [
+      "Neutral",
+      "Happy",
+      "Angry",
+      "Sad",
+      "Fear",
+      "Disgust",
+      "Boredum"
+    ],
+    "number_of_classes": 7,
+    "sample_rate": 16000,
+    "number_of_mfccs": 20,
+    "feature_dimension": 187,
+    "train_samples": 2800,
+    "validation_samples": 350,
+    "test_samples": 350
+  },
+  "search_configuration": {
+    "acoustic_ensemble_step": 0.05,
+    "base_ensemble_step": 0.01,
+    "maximum_acoustic_weight": 0.35,
+    "acoustic_blend_step": 0.01,
+    "maximum_sequential_rules": 2,
+    "minimum_rule_support": 2,
+    "minimum_rule_net_gain": 1
+  },
+  "protected_base_weights": {
+    "v21": 0.55,
+    "v13": 0.44999999999999996
+  },
+  "acoustic_models": [
+    "svm",
+    "extra_trees",
+    "logreg"
+  ],
+  "acoustic_ensemble_weights": {
+    "svm": 0.5,
+    "extra_trees": 0.35000000000000003,
+    "logreg": 0.14999999999999997
+  },
+  "acoustic_validation_metrics": {
+    "accuracy": 0.4514285714285714,
+    "macro_f1": 0.4397740005637358,
+    "weighted_f1": 0.4397740005637358,
+    "min_class_f1": 0.3146067415730337,
+    "selection_score": 0.4325018315538416,
+    "f1_Neutral": 0.4077669902912621,
+    "f1_Happy": 0.3736263736263737,
+    "f1_Angry": 0.6229508196721312,
+    "f1_Sad": 0.5660377358490566,
+    "f1_Fear": 0.3146067415730337,
+    "f1_Disgust": 0.3181818181818182,
+    "f1_Boredum": 0.4752475247524752
+  },
+  "acoustic_test_metrics": {
+    "accuracy": 0.44285714285714284,
+    "macro_f1": 0.43932602879827465,
+    "weighted_f1": 0.43932602879827465,
+    "min_class_f1": 0.2947368421052632,
+    "selection_score": 0.4264561114554642,
+    "f1_Neutral": 0.4210526315789474,
+    "f1_Happy": 0.42424242424242425,
+    "f1_Angry": 0.6017699115044247,
+    "f1_Sad": 0.5625000000000001,
+    "f1_Fear": 0.2947368421052632,
+    "f1_Disgust": 0.32,
+    "f1_Boredum": 0.4509803921568628
+  },
+  "global_blend_weight": 0.0,
+  "selective_rules": [
+    {
+      "source": 4,
+      "target": 2,
+      "base_conf_max": 0.55,
+      "base_margin_max": 0.3,
+      "acoustic_conf_min": 0.3,
+      "acoustic_margin_min": 0.2,
+      "support": 4,
+      "corrected": 3,
+      "damaged": 1,
+      "net": 2,
+      "score": 8.364730313509952,
+      "validation_metrics_before": {
+        "accuracy": 0.8885714285714286,
+        "macro_f1": 0.8885729071309233,
+        "weighted_f1": 0.8885729071309233,
+        "min_class_f1": 0.8172043010752689,
+        "selection_score": 0.8814353811735853,
+        "f1_Neutral": 0.8727272727272728,
+        "f1_Happy": 0.9484536082474226,
+        "f1_Angry": 0.9183673469387755,
+        "f1_Sad": 0.888888888888889,
+        "f1_Fear": 0.8543689320388349,
+        "f1_Disgust": 0.92,
+        "f1_Boredum": 0.8172043010752689
+      },
+      "validation_metrics_after": {
+        "accuracy": 0.8914285714285715,
+        "macro_f1": 0.890996558698473,
+        "weighted_f1": 0.8909965586984732,
+        "min_class_f1": 0.8172043010752689,
+        "selection_score": 0.8838117386646971,
+        "f1_Neutral": 0.8727272727272728,
+        "f1_Happy": 0.9387755102040817,
+        "f1_Angry": 0.9306930693069307,
+        "f1_Sad": 0.888888888888889,
+        "f1_Fear": 0.8686868686868686,
+        "f1_Disgust": 0.92,
+        "f1_Boredum": 0.8172043010752689
+      },
+      "validation_trigger_count": 4
+    }
+  ],
+  "rule_history": [
+    {
+      "rule": {
+        "source": 4,
+        "target": 2,
+        "base_conf_max": 0.55,
+        "base_margin_max": 0.3,
+        "acoustic_conf_min": 0.3,
+        "acoustic_margin_min": 0.2,
+        "support": 4,
+        "corrected": 3,
+        "damaged": 1,
+        "net": 2,
+        "score": 8.364730313509952,
+        "validation_metrics_before": {
+          "accuracy": 0.8885714285714286,
+          "macro_f1": 0.8885729071309233,
+          "weighted_f1": 0.8885729071309233,
+          "min_class_f1": 0.8172043010752689,
+          "selection_score": 0.8814353811735853,
+          "f1_Neutral": 0.8727272727272728,
+          "f1_Happy": 0.9484536082474226,
+          "f1_Angry": 0.9183673469387755,
+          "f1_Sad": 0.888888888888889,
+          "f1_Fear": 0.8543689320388349,
+          "f1_Disgust": 0.92,
+          "f1_Boredum": 0.8172043010752689
+        },
+        "validation_metrics_after": {
+          "accuracy": 0.8914285714285715,
+          "macro_f1": 0.890996558698473,
+          "weighted_f1": 0.8909965586984732,
+          "min_class_f1": 0.8172043010752689,
+          "selection_score": 0.8838117386646971,
+          "f1_Neutral": 0.8727272727272728,
+          "f1_Happy": 0.9387755102040817,
+          "f1_Angry": 0.9306930693069307,
+          "f1_Sad": 0.888888888888889,
+          "f1_Fear": 0.8686868686868686,
+          "f1_Disgust": 0.92,
+          "f1_Boredum": 0.8172043010752689
+        },
+        "validation_trigger_count": 4
+      },
+      "before": {
+        "accuracy": 0.8885714285714286,
+        "macro_f1": 0.8885729071309233,
+        "weighted_f1": 0.8885729071309233,
+        "min_class_f1": 0.8172043010752689,
+        "selection_score": 0.8814353811735853,
+        "f1_Neutral": 0.8727272727272728,
+        "f1_Happy": 0.9484536082474226,
+        "f1_Angry": 0.9183673469387755,
+        "f1_Sad": 0.888888888888889,
+        "f1_Fear": 0.8543689320388349,
+        "f1_Disgust": 0.92,
+        "f1_Boredum": 0.8172043010752689
+      },
+      "after": {
+        "accuracy": 0.8914285714285715,
+        "macro_f1": 0.890996558698473,
+        "weighted_f1": 0.8909965586984732,
+        "min_class_f1": 0.8172043010752689,
+        "selection_score": 0.8838117386646971,
+        "f1_Neutral": 0.8727272727272728,
+        "f1_Happy": 0.9387755102040817,
+        "f1_Angry": 0.9306930693069307,
+        "f1_Sad": 0.888888888888889,
+        "f1_Fear": 0.8686868686868686,
+        "f1_Disgust": 0.92,
+        "f1_Boredum": 0.8172043010752689
+      }
+    }
+  ],
+  "final_validation_metrics": {
+    "accuracy": 0.8914285714285715,
+    "macro_f1": 0.890996558698473,
+    "weighted_f1": 0.8909965586984732,
+    "min_class_f1": 0.8172043010752689,
+    "selection_score": 0.8838117386646971,
+    "f1_Neutral": 0.8727272727272728,
+    "f1_Happy": 0.9387755102040817,
+    "f1_Angry": 0.9306930693069307,
+    "f1_Sad": 0.888888888888889,
+    "f1_Fear": 0.8686868686868686,
+    "f1_Disgust": 0.92,
+    "f1_Boredum": 0.8172043010752689
+  },
+  "final_test_metrics": {
+    "accuracy": 0.8914285714285715,
+    "macro_f1": 0.8909599693478267,
+    "weighted_f1": 0.8909599693478268,
+    "min_class_f1": 0.8210526315789474,
+    "selection_score": 0.8841801065072739,
+    "f1_Neutral": 0.9320388349514563,
+    "f1_Happy": 0.8775510204081632,
+    "f1_Angry": 0.8932038834951457,
+    "f1_Sad": 0.9090909090909091,
+    "f1_Fear": 0.888888888888889,
+    "f1_Disgust": 0.8210526315789474,
+    "f1_Boredum": 0.9148936170212766
+  },
+  "test_roc_auc": {
+    "pipeline_version": "V24",
+    "split": "test",
+    "method": "v24_sequential_selective_acoustic_gate",
+    "roc_strategy": "one-vs-rest",
+    "number_of_samples": 350,
+    "number_of_classes": 7,
+    "class_auc": {
+      "Neutral": 0.9879333333333333,
+      "Happy": 0.989,
+      "Angry": 0.9907333333333334,
+      "Sad": 0.9860666666666666,
+      "Fear": 0.9888,
+      "Disgust": 0.9758666666666667,
+      "Boredom": 0.9773333333333334
+    },
+    "macro_auc": 0.9865190476190476,
+    "micro_auc": 0.9842748299319728,
+    "mean_per_class_auc": 0.9851047619047619,
+    "note": "ROC/AUC is computed only after the final V24 candidate is frozen. It is not used for model selection or threshold tuning."
+  },
+  "baseline_test_metrics": {
+    "accuracy": 0.8857142857142857,
+    "macro_f1": 0.8856416968450882,
+    "weighted_f1": 0.8856416968450882,
+    "min_class_f1": 0.8210526315789474,
+    "selection_score": 0.879215455309613,
+    "f1_Neutral": 0.9320388349514563,
+    "f1_Happy": 0.8775510204081632,
+    "f1_Angry": 0.88,
+    "f1_Sad": 0.9090909090909091,
+    "f1_Fear": 0.8648648648648649,
+    "f1_Disgust": 0.8210526315789474,
+    "f1_Boredum": 0.9148936170212766
+  },
+  "delta_over_baseline": {
+    "accuracy": 0.005714285714285783,
+    "macro_f1": 0.00531827250273853,
+    "weighted_f1": 0.005318272502738641,
+    "min_class_f1": 0.0
+  },
+  "changed_predictions": 3,
+  "errors_corrected": 2,
+  "correct_predictions_damaged": 0,
+  "correct_test_predictions": 312,
+  "test_errors": 38
+}

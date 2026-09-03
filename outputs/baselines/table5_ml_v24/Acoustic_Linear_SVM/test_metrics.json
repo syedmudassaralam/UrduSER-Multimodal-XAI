@@ -1,0 +1,12 @@
+{
+  "model": "Acoustic Linear SVM",
+  "accuracy": 0.3657142857142857,
+  "macro_f1": 0.3509758785799995,
+  "accuracy_percent": 36.57,
+  "macro_f1_percent": 35.1,
+  "n_train": 2800,
+  "n_val": 350,
+  "n_test": 350,
+  "feature_dimension": 187,
+  "seed": 123
+}

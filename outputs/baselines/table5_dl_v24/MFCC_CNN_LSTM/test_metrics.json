@@ -1,0 +1,8 @@
+{
+  "model": "MFCC_CNN_LSTM",
+  "accuracy_percent": 41.14,
+  "macro_f1_percent": 41.21,
+  "accuracy": 0.4114285714285714,
+  "macro_f1": 0.4120526574031997,
+  "seed": 123
+}

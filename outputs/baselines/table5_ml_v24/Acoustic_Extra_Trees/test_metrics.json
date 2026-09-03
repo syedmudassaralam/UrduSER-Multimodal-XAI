@@ -1,0 +1,12 @@
+{
+  "model": "Acoustic Extra Trees",
+  "accuracy": 0.4514285714285714,
+  "macro_f1": 0.4410213150727227,
+  "accuracy_percent": 45.14,
+  "macro_f1_percent": 44.1,
+  "n_train": 2800,
+  "n_val": 350,
+  "n_test": 350,
+  "feature_dimension": 187,
+  "seed": 123
+}

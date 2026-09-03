@@ -1,0 +1,74 @@
+{
+  "table": "Table 7",
+  "results": [
+    {
+      "category": "Machine Learning",
+      "model": "TF-IDF + XGBoost",
+      "accuracy_percent": 43.43,
+      "macro_f1_percent": 42.87
+    },
+    {
+      "category": "Machine Learning",
+      "model": "TF-IDF + Random Forest",
+      "accuracy_percent": 62.0,
+      "macro_f1_percent": 62.63
+    },
+    {
+      "category": "Machine Learning",
+      "model": "TF-IDF + Logistic Regression",
+      "accuracy_percent": 75.71,
+      "macro_f1_percent": 75.6
+    },
+    {
+      "category": "Machine Learning",
+      "model": "TF-IDF + Multinomial NB",
+      "accuracy_percent": 77.14,
+      "macro_f1_percent": 77.05
+    },
+    {
+      "category": "Machine Learning",
+      "model": "TF-IDF + Linear SVM",
+      "accuracy_percent": 84.0,
+      "macro_f1_percent": 83.95
+    },
+    {
+      "category": "Transformer",
+      "model": "mBERT",
+      "accuracy_percent": 72.57,
+      "macro_f1_percent": 72.44
+    },
+    {
+      "category": "Transformer",
+      "model": "mDeBERTa-v3-base",
+      "accuracy_percent": 73.14,
+      "macro_f1_percent": 72.71
+    },
+    {
+      "category": "Transformer",
+      "model": "XLM-RoBERTa-large",
+      "accuracy_percent": 77.43,
+      "macro_f1_percent": 77.44
+    },
+    {
+      "category": "Transformer",
+      "model": "Distil-mBERT",
+      "accuracy_percent": 78.57,
+      "macro_f1_percent": 78.31
+    },
+    {
+      "category": "Proposed",
+      "model": "Multimodal Fusion",
+      "accuracy_percent": 89.14,
+      "macro_f1_percent": 89.1
+    }
+  ],
+  "best_text_only": {
+    "model": "TF-IDF + Linear SVM",
+    "accuracy_percent": 84.0,
+    "macro_f1_percent": 83.95
+  },
+  "proposed_multimodal": {
+    "accuracy_percent": 89.14,
+    "macro_f1_percent": 89.1
+  }
+}

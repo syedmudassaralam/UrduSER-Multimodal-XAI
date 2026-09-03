@@ -1,0 +1,5 @@
+Model,Accuracy (%),Macro-F1 (%)
+Wav2Vec2-large-XLSR53,18.86,12.44
+WavLM-large,43.71,42.09
+Whisper-small,54.57,53.07
+Deep audio ensemble,54.29,54.09

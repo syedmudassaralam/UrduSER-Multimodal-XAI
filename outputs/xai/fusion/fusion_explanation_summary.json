@@ -1,0 +1,27 @@
+{
+  "samples": 350,
+  "v21_weight": 0.55,
+  "v13_weight": 0.45,
+  "protected_final_changes": 3,
+  "audio_final_agreements": 158,
+  "mean_confidence": {
+    "v21": 0.6806992919853088,
+    "v13": 0.6805128847951171,
+    "protected": 0.6803434890672921,
+    "audio": 0.36900098771740364,
+    "final": 0.6806594590903677
+  },
+  "mean_entropy": {
+    "v21": 1.0485087896443177,
+    "v13": 1.0485688794079282,
+    "protected": 1.0486404389557378,
+    "audio": 1.6500803035018456,
+    "final": 1.0485552494911143
+  },
+  "fusion_effect_counts": {
+    "remained correct": 310,
+    "remained incorrect": 38,
+    "corrected by final fusion": 2
+  },
+  "selective_rule_triggered": 3
+}

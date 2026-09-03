@@ -1,0 +1,8 @@
+{
+  "model": "MFCC_1D_CNN",
+  "accuracy_percent": 46.0,
+  "macro_f1_percent": 45.57,
+  "accuracy": 0.46,
+  "macro_f1": 0.4557227644099874,
+  "seed": 123
+}

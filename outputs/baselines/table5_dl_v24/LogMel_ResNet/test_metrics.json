@@ -1,0 +1,8 @@
+{
+  "model": "LogMel_ResNet",
+  "accuracy_percent": 38.29,
+  "macro_f1_percent": 36.92,
+  "accuracy": 0.38285714285714284,
+  "macro_f1": 0.3692197304983057,
+  "seed": 123
+}

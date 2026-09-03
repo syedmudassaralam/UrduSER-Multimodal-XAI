@@ -1,0 +1,12 @@
+{
+  "model": "Acoustic Random Forest",
+  "accuracy": 0.42857142857142855,
+  "macro_f1": 0.42211227274562957,
+  "accuracy_percent": 42.86,
+  "macro_f1_percent": 42.21,
+  "n_train": 2800,
+  "n_val": 350,
+  "n_test": 350,
+  "feature_dimension": 187,
+  "seed": 123
+}

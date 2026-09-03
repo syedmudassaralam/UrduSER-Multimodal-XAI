@@ -1,0 +1,12 @@
+{
+  "model": "Acoustic KNN",
+  "accuracy": 0.3742857142857143,
+  "macro_f1": 0.36453078638406,
+  "accuracy_percent": 37.43,
+  "macro_f1_percent": 36.45,
+  "n_train": 2800,
+  "n_val": 350,
+  "n_test": 350,
+  "feature_dimension": 187,
+  "seed": 123
+}

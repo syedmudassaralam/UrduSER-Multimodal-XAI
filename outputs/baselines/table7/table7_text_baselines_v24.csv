@@ -1,0 +1,11 @@
+Category,Model,Accuracy (%),Macro-F1 (%)
+Machine Learning,TF-IDF + XGBoost,43.43,42.87
+Machine Learning,TF-IDF + Random Forest,62.0,62.63
+Machine Learning,TF-IDF + Logistic Regression,75.71,75.6
+Machine Learning,TF-IDF + Multinomial NB,77.14,77.05
+Machine Learning,TF-IDF + Linear SVM,84.0,83.95
+Transformer,mBERT,72.57,72.44
+Transformer,mDeBERTa-v3-base,73.14,72.71
+Transformer,XLM-RoBERTa-large,77.43,77.44
+Transformer,Distil-mBERT,78.57,78.31
+Proposed,Multimodal Fusion,89.14,89.1

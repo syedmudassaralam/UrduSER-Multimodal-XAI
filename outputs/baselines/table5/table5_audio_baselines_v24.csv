@@ -1,0 +1,17 @@
+Category,Model,Accuracy (%),Macro-F1 (%)
+Machine Learning,Acoustic KNN,37.43,36.45
+Machine Learning,Acoustic Linear SVM,36.57,35.10
+Machine Learning,Acoustic Logistic Regression,37.43,37.10
+Machine Learning,Acoustic Extra Trees,45.14,44.10
+Machine Learning,Acoustic Random Forest,42.86,42.21
+Machine Learning,Acoustic SVM-RBF,43.43,43.50
+Machine Learning,Acoustic XGBoost,41.71,41.02
+Deep Learning,LogMel-ResNet,38.29,36.92
+Deep Learning,LogMel-CNN,36.29,35.83
+Deep Learning,Audio BiLSTM-Attention,41.14,40.80
+Deep Learning,LogMel-CRNN,42.29,40.35
+Deep Learning,MFCC CNN-BiGRU,48.29,48.42
+Deep Learning,MFCC CNN-BiLSTM,45.43,44.60
+Deep Learning,MFCC 1D-CNN,46.00,45.57
+Deep Learning,MFCC CNN-LSTM,41.14,41.21
+Deep Learning,MFCC CNN-GRU,41.71,41.56

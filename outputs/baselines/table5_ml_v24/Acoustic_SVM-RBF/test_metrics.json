@@ -1,0 +1,12 @@
+{
+  "model": "Acoustic SVM-RBF",
+  "accuracy": 0.4342857142857143,
+  "macro_f1": 0.4350460879428953,
+  "accuracy_percent": 43.43,
+  "macro_f1_percent": 43.5,
+  "n_train": 2800,
+  "n_val": 350,
+  "n_test": 350,
+  "feature_dimension": 187,
+  "seed": 123
+}

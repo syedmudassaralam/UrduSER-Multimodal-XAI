@@ -1,0 +1,56 @@
+{
+  "comparison": "A4_equal_50_50_fusion_vs_A5_proposed_framework",
+  "samples": 350,
+  "test_partition_check": {
+    "same_file_ids": true,
+    "same_ground_truth": true
+  },
+  "A4_equal_fusion": {
+    "accuracy": 0.8228571428571428,
+    "accuracy_percent": 82.28571428571428,
+    "macro_f1": 0.8229992887740465,
+    "macro_f1_percent": 82.29992887740465
+  },
+  "A5_proposed_framework": {
+    "accuracy": 0.8914285714285715,
+    "accuracy_percent": 89.14285714285714,
+    "macro_f1": 0.8909599693478267,
+    "macro_f1_percent": 89.09599693478268
+  },
+  "observed_improvement": {
+    "accuracy_percentage_points": 6.857142857142861,
+    "macro_f1_percentage_points": 6.796068057378024
+  },
+  "paired_error_transitions": {
+    "both_correct": 287,
+    "both_incorrect": 37,
+    "A4_correct_A5_wrong": 1,
+    "A4_wrong_A5_correct": 25,
+    "net_corrected_by_A5": 24
+  },
+  "mcnemar_exact": {
+    "discordant_pairs": 26,
+    "A4_correct_A5_wrong": 1,
+    "A4_wrong_A5_correct": 25,
+    "p_value": 8.046627044677734e-07,
+    "significant_at_0_05": true
+  },
+  "paired_bootstrap": {
+    "iterations": 20000,
+    "seed": 12345,
+    "accuracy_difference_95ci_pp": [
+      4.285714285714281,
+      9.714285714285719
+    ],
+    "macro_f1_difference_95ci_pp": [
+      4.19043705464026,
+      9.71967474070793
+    ],
+    "accuracy_ci_entirely_above_zero": true,
+    "macro_f1_ci_entirely_above_zero": true,
+    "probability_A5_accuracy_superior": 1.0,
+    "probability_A5_macro_f1_superior": 1.0,
+    "empirical_two_sided_accuracy_p": 0.0,
+    "empirical_two_sided_macro_f1_p": 0.0
+  }
+}

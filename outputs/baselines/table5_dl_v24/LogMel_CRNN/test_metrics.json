@@ -1,0 +1,8 @@
+{
+  "model": "LogMel_CRNN",
+  "accuracy_percent": 42.29,
+  "macro_f1_percent": 40.35,
+  "accuracy": 0.4228571428571429,
+  "macro_f1": 0.40354396021761085,
+  "seed": 123
+}

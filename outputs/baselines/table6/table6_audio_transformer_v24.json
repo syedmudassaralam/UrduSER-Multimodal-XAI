@@ -1,0 +1,34 @@
+{
+  "table": "Table 6",
+  "description": "Performance of pretrained speech models and the deep audio ensemble for seven-class Urdu SER.",
+  "models": [
+    {
+      "model": "Wav2Vec2-large-XLSR53",
+      "accuracy_percent": 18.86,
+      "macro_f1_percent": 12.44
+    },
+    {
+      "model": "WavLM-large",
+      "accuracy_percent": 43.71,
+      "macro_f1_percent": 42.09
+    },
+    {
+      "model": "Whisper-small",
+      "accuracy_percent": 54.57,
+      "macro_f1_percent": 53.07
+    },
+    {
+      "model": "Deep audio ensemble",
+      "accuracy_percent": 54.29,
+      "macro_f1_percent": 54.09
+    }
+  ],
+  "best_accuracy_model": {
+    "model": "Whisper-small",
+    "accuracy_percent": 54.57
+  },
+  "best_macro_f1_model": {
+    "model": "Deep audio ensemble",
+    "macro_f1_percent": 54.09
+  }
+}

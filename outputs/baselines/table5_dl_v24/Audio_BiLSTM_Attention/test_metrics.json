@@ -1,0 +1,8 @@
+{
+  "model": "Audio_BiLSTM_Attention",
+  "accuracy_percent": 41.14,
+  "macro_f1_percent": 40.8,
+  "accuracy": 0.4114285714285714,
+  "macro_f1": 0.4079630172186234,
+  "seed": 123
+}

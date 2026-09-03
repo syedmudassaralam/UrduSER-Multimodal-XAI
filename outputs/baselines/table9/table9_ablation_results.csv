@@ -1,0 +1,6 @@
+ID,Configuration,Accuracy (%),Macro-F1 (%)
+A1,Current-utterance text only,30.29,30.36
+A2,Context-aware text,79.14,79.03
+A3,Pretrained speech-model ensemble,54.00,54.07
+A4,Equal-weight audio-text fusion,82.29,82.30
+A5,Proposed multimodal framework,89.14,89.10

@@ -1,0 +1,8 @@
+{
+  "model": "MFCC_CNN_GRU",
+  "accuracy_percent": 41.71,
+  "macro_f1_percent": 41.56,
+  "accuracy": 0.41714285714285715,
+  "macro_f1": 0.4156483276952793,
+  "seed": 123
+}

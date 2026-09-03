@@ -1,0 +1,14 @@
+{
+  "table": "Table 5",
+  "description": "Performance of conventional machine-learning and deep-learning acoustic models for seven-class Urdu SER using the V24 acoustic pipeline.",
+  "best_machine_learning_model": {
+    "model": "Acoustic Extra Trees",
+    "accuracy_percent": 45.14,
+    "macro_f1_percent": 44.10
+  },
+  "best_deep_learning_model": {
+    "model": "MFCC CNN-BiGRU",
+    "accuracy_percent": 48.29,
+    "macro_f1_percent": 48.42
+  }
+}

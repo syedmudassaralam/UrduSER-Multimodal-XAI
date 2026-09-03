@@ -1,0 +1,6 @@
+Method,Accuracy (%),Macro-F1 (%),Verified source
+Weighted probability fusion,81.14,81.21,outputs/fusion/table4/weighted_probability/test_metrics.json
+Max-confidence fusion,81.43,81.51,outputs/fusion/table4/max_confidence/test_metrics.json
+Equal-weight audio-text fusion,82.29,82.3,outputs/fusion/table4/equal_weight/test_metrics.json
+Protected validation-selected fusion,88.57,88.56,outputs/fusion/table4/protected_validation_selected/test_metrics.json
+Final selective fusion,89.14,89.1,outputs/fusion/table4/final_selective/test_metrics.json

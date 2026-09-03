@@ -1,0 +1,8 @@
+{
+  "method": "Equal-weight audio-text fusion",
+  "text_weight": 0.5,
+  "audio_weight": 0.5,
+  "accuracy": 0.8228571428571428,
+  "macro_f1": 0.8229992887740465,
+  "n_samples": 350
+}

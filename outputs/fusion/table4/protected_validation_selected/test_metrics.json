@@ -1,0 +1,8 @@
+{
+  "method": "Protected validation-selected fusion",
+  "v21_weight": 0.55,
+  "v13_weight": 0.45,
+  "accuracy": 0.8857142857142857,
+  "macro_f1": 0.8856416968450882,
+  "n_samples": 350
+}

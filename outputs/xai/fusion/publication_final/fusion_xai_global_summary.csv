@@ -1,0 +1,2 @@
+﻿samples,protected_correct,protected_accuracy_percent,final_correct,final_accuracy_percent,accuracy_gain_percentage_points,changed_predictions,unchanged_predictions,corrected_errors,new_errors,wrong_to_wrong_changes,selective_rule_triggered
+350,310,88.57142857142857,312,89.14285714285714,0.5714285714285694,3,347,2,0,1,3

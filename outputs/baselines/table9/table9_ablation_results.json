@@ -1,0 +1,42 @@
+{
+  "table": "Table 9",
+  "description": "Component ablation of the proposed Urdu SER framework on the held-out test set.",
+  "results": [
+    {
+      "id": "A1",
+      "configuration": "Current-utterance text only",
+      "accuracy_percent": 30.29,
+      "macro_f1_percent": 30.36
+    },
+    {
+      "id": "A2",
+      "configuration": "Context-aware text",
+      "accuracy_percent": 79.14,
+      "macro_f1_percent": 79.03
+    },
+    {
+      "id": "A3",
+      "configuration": "Pretrained speech-model ensemble",
+      "accuracy_percent": 54.00,
+      "macro_f1_percent": 54.07
+    },
+    {
+      "id": "A4",
+      "configuration": "Equal-weight audio-text fusion",
+      "accuracy_percent": 82.29,
+      "macro_f1_percent": 82.30
+    },
+    {
+      "id": "A5",
+      "configuration": "Proposed multimodal framework",
+      "accuracy_percent": 89.14,
+      "macro_f1_percent": 89.10
+    }
+  ],
+  "a4_to_a5_improvement": {
+    "accuracy_percentage_points": 6.86,
+    "macro_f1_percentage_points": 6.80,
+    "mcnemar_exact_p_value": 8.046627044677734e-07,
+    "significant_at_0_001": true
+  }
+}
