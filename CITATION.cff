@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "UrduSER-Multimodal-XAI: Explainable Context-Aware Multimodal Urdu Speech Emotion Recognition"
+type: software
+authors:
+  - family-names: "Alam"
+    given-names: "Syed Mudassar"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/syedmudassaralam/UrduSER-Multimodal-XAI"
+url: "https://github.com/syedmudassaralam/UrduSER-Multimodal-XAI"
